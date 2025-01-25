@@ -254,13 +254,13 @@
 				"header": [
 					{
 						"key": "content-type",
-						"value": "application/sparl-query",
+						"value": "application/sparql-query",
 						"type": "text"
 					}
 				],
 				"body": {
 					"mode": "raw",
-					"raw": "select ?ref ?commit ?time where {\n\t?ref mms:commit ?commit .\n\t?commit mms:submitted  ?time\n} "
+					"raw": "prefix mms: <https://mms.openmbee.org/rdf/ontology/>\n\nselect ?ref ?commit ?time where {\n\t?ref mms:commit ?commit .\n\t?commit mms:submitted  ?time\n} "
 				},
 				"url": {
 					"raw": "{{host}}/orgs/openmbee/repos/hackathon/query",
