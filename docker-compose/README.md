@@ -51,7 +51,7 @@ The first step will be the retrieve an authentication token from the auth-servic
 
 You can now use the token returned as a bearer token for all subsequent flexo-mms-layer1 api calls to http://localhost:8080, for api documentation, see https://www.openmbee.org/flexo-mms-layer1-openapi/
 
-An example Postman collection is available in this directory that demonstrates basic api usage. Download the Postman app from https://www.postman.com/ and import the collection file to use.
+An example Postman collection is available in this directory that demonstrates basic api usage. Download the Postman app from https://www.postman.com/ and import the collection file to use. (for load model, the gnis-hawaii.ttl file in this directory can be used)
 
 ## Connecting Jupyter Notebook Quick Start
 

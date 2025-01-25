@@ -117,7 +117,7 @@
 		{
 			"name": "load model",
 			"request": {
-				"method": "POST",
+				"method": "PUT",
 				"header": [
 					{
 						"key": "content-type",
